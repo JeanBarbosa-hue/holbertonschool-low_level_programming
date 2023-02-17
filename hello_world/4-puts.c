@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Programming is like building a multilingual puzzle\n
+gcc echo "Programming is like building a multilingual puzzle\n
