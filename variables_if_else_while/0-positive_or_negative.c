@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints a random number and states whether
- *        it is positive, negative, or zero.
+ * Main- Entry point
+ *
+ * Description- 'assign random number to variable'       
  *
  * Return: Always 0.
 */
