@@ -8,8 +8,8 @@
  * Return: Always 0 (Success)
  */
 
- int main(void)
-{ 
+int main(void)
+{
 	char i;
 	char p;
 
@@ -22,9 +22,9 @@
 	{
 		putchar(p);
 	}
-	
+
 	putchar('\n');
 
 	return (0);
 
-}	
+}
