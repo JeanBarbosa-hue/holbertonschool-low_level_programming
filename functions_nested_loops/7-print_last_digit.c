@@ -4,6 +4,8 @@
 /**
  *print_last_digit - print last digit
  *
+ * @p: last digit of number
+ *
  *Return: x
  *
  */
