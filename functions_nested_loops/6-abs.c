@@ -4,9 +4,9 @@
 /**
  * _abs - computes absolute value of integer
  *
- *@e - variable to be checked
+ *@e: variable to be checked
  *
- * Return '-' - absolute value
+ * Return: absolute value
  */
 
 int _abs(int e)
