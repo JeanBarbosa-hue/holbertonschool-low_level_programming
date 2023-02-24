@@ -4,7 +4,10 @@
 /**
  * add - add two integers
  *
- * @wq - integers to be summed
+ * @w: integers to be added
+ * @q: integer to be added
+ *
+ * Return: w + q
  */
 
 int add(int w, int q)
