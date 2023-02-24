@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * add - add two integers 
+ * add - add two integers
  *
- * @wq - two integers
+ * @wq - integers to be summed
  */
 
 int add(int w, int q)
