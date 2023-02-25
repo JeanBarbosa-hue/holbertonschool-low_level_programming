@@ -4,8 +4,6 @@
 /**
  * print_most_numbers - print most numbers from 0 to 9
  *
- * @u: variable
- *
  * Return: 0 to 9
  */
 
