@@ -2,18 +2,21 @@
 #include <stdio.h>
 
 /**
- * print_numbers - prints numbers 0 to 9
+ * print_numbers - print 0 to 9
  *
- *@r: variable to be checked
+ * @a: variable
+ *
+ * Return: 0 to 9 being printed
  */
 
 void print_numbers(void)
 {
-	int r;
+	int a;
 
-	for (r = 0; r <= 9; r++)
-	{
-		putchar(r + '0');
-	}
-	putchar('\n');
+		for (a = 0; a <= 9; a++)
+		{
+			putchar(a + '0');
+		}
+
+		putchar('\n');
 }
