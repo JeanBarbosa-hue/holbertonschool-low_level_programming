@@ -1,0 +1,18 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * swap_int - swaping values
+ *
+ *@a:variable
+ *@b: variable
+ */
+
+void swap_int(int *a, int *b)
+{
+	int temp;
+
+	temp = *a;
+	 *a = *b;
+	 *b = temp;
+}
