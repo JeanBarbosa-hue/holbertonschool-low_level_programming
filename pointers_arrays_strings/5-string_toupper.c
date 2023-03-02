@@ -5,24 +5,24 @@
 /**
  * string_toupper - change lowercase to uppercase
  *
+ *@str: pointer
  *
- *
- *
+ *Return: str
  */
 
 char *string_toupper(char *str)
 {
-  	size_t len = strlen(str);
-  	size_t i;
+	size_t len = strlen(str);
+	size_t i;
 
-  	for (i = 0; i < len; i++) 
+	for (i = 0; i < len; i++)
 	{
-    	
+
 		if (str[i] >= 'a' && str[i] <= 'z') 
 		{
-      
-			str[i] = str[i] - 'a' + 'A'; 
+
+			str[i] = str[i] - 'a' + 'A';
 		}
-  }
-  return str;
+	}
+	return (str);
 }
