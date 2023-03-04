@@ -3,10 +3,10 @@
 /**
  * _strchr - locates a character
  *
- * @s: ponter
+ * @s: pointer
  * @c: variable
  *
- * Return: '\0'
+ * Return: null
  * */
 
 char *_strchr(char *s, char c)
@@ -23,7 +23,7 @@ char *_strchr(char *s, char c)
 		if (c == s[b])
 		{
 			s += b;
-			return s;
+			return (s);
 		}
 	}
 
