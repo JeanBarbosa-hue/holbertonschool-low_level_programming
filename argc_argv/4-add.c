@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * @argc: variable
  * @argv: pointer/array
@@ -13,11 +13,12 @@
 
 int main(int argc, char *argv[])
 {
-	 int sum = 0;
+	int i, j;
+	int sum = 0;
 
-    for (int i = 1; i < argc; i++) 
+    for (i = 1; i < argc; i++) 
     {
-        for (int j = 0; argv[i][j] != '\0'; j++) 
+        for (j = 0; argv[i][j] != '\0'; j++) 
 	{
             if (!isdigit(argv[i][j])) 
 	    {
@@ -26,8 +27,8 @@ int main(int argc, char *argv[])
             }
         }
 
-        int num = atoi(argv[i]);
-        
+	int num = atoi(argv[i]);
+
 	if (num < 0) 
 	{
             printf("Error\n");
