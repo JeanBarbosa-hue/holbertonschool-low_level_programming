@@ -32,9 +32,9 @@ int **alloc_grid(int width, int height)
 
 	if (dup[hgt_index] == NULL)
 	{
-		for (; hgt_index >= 0; hgt_index--)
-			free(dup[hgt_index]);
-			free(dup);
+	for (; hgt_index >= 0; hgt_index--)
+	free(dup[hgt_index]);
+	free(dup);
 	return (NULL);
 	}
 
