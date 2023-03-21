@@ -8,7 +8,7 @@
  * @owner: char
  * @age: float
  *
- * Description: This is a structure with the name dog with the variables name, age,owner 
+ * Description: structure with the name dog with the variables name, age,owner
  */
 
 
