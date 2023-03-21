@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
+ * print_dog - prints struct dog
  *
- *
- *
- *
+ * @d: pointer
  *
  */
 
