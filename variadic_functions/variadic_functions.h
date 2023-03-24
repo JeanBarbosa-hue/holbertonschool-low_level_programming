@@ -1,5 +1,5 @@
-#ifndef "variadic_function"
-#define "variadic_function"
+#ifndef variadic_function
+#define variadic_function
 
 int sum_them_all(const unsigned int n, ...);
 
